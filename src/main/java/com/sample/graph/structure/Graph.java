@@ -71,37 +71,4 @@ public class Graph {
         }
         return s.toString();
     }
-
-
-
-
-//    private final Map<Integer, Vertex> vertices = new TreeMap<>( new Comparator<Integer>() {
-//        @Override
-//        public int compare( Integer arg0, Integer arg1 ) {
-//            return arg0.compareTo( arg1 );
-//        }
-//    });
-//
-//    private final List<Edge> edges = new ArrayList<>();
-//
-//    public void addVertex(Vertex v) {
-//        vertices.put(v.getId(), v);
-//    }
-//
-//    public Vertex getVertex(int id) {
-//        Vertex v;
-//        if(null == (v = vertices.get(id))) {
-//            v = new Vertex(id);
-//            addVertex(v);
-//        }
-//        return v;
-//    }
-//
-//    public Map<Integer, Vertex> getVertices() {
-//        return this.vertices;
-//    }
-//
-//    public List<Edge> getEdges() {
-//        return this.edges;
-//    }
 }
